@@ -1,0 +1,135 @@
+/* BUTTON SECTION */
+.form-btn {
+    border-radius: 50px;
+    border: none;
+}
+
+.btn  {
+    color: rgb(250, 250, 250)!important;
+    background-color: #5CE099!important;
+    font-weight: bold;
+}
+
+.btn:hover  {
+    color: #FC9A16!important;
+    background-color: #5CE099!important;
+}
+
+/* NAVBAR SECTION */
+
+.navbar-brand img {
+    width: 280px;
+    height: 45px;
+    padding-left: 80px;
+}
+
+.navbar-dark {
+    background-color: #5CE099!important;
+}
+
+.nav-item .nav-link {
+    color: #fff!important;
+    font-family: Arial, Helvetica!important;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(76, 73, 73)!important;
+}
+
+.active {
+    color: rgb(95, 93, 93);
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    float: right!important;
+    width: 100%;
+}
+
+/* Hero section */
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text align: center;
+}
+
+.hero-img {
+    width: 90%;
+    height: 72vh;
+
+}
+
+.dst {
+    padding-top: 40px;
+}
+
+.hero-heading {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    height: auto;
+}
+
+.hero-btn1 {
+    border-radius: 50px!important;
+    padding: 5px 15px 5px 15px;
+    margin-left: 60px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-btn2 {
+    border-radius: 50px!important;
+    padding: 5px 15px 5px 15px;
+    margin: 20px;
+    background: #FC9A16!important;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FOOTER  SECTION*/
+
+.bottom-footer {
+    margin-top: 20px;
+    height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    background: rgb(96, 98, 98);
+}
+
+.bottom-footer a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom-footer a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+
+/* FORM SECTION */
+
+.login-form {
+    width: 250px;!important;
+    margin: 50px auto!important;
+    border: 3px #ddd; solid;
+}
+
+.form-control {
+    border-radius: 50px!important;
+}
+
+.form-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
