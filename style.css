@@ -7,11 +7,11 @@
 .btn  {
     color: rgb(250, 250, 250)!important;
     background-color: #5CE099!important;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .btn:hover  {
-    color: #FC9A16!important;
+    color: #fff!important;
     background-color: #5CE099!important;
 }
 
@@ -163,4 +163,5 @@
 .headings {
     color: #5CE099;
     text-align: center;
+    font-weight: 500;
 }
