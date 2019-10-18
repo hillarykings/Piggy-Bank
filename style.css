@@ -27,9 +27,14 @@
     background-color: #5CE099!important;
 }
 
-.nav-item .nav-link {
+.navbar-nav-item {
+    display: flex;
+    justify-content: flex-start!important;
+}
+
+.nav-link {
     color: #fff!important;
-    font-family: Arial, Helvetica!important;
+    font-family: Arial!important;
 }
 
 .nav-item .nav-link:hover {
@@ -50,26 +55,30 @@
 /* Hero section */
 
 .hero-section {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: -20px; */
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -10%); */
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    text align: center;
+    text align: center; */
 }
 
 .hero-img {
-    width: 90%;
+    width: ;
     height: 72vh;
 
 }
 
-.dst {
-    padding-top: 40px;
+.discription {
+    text-align: center;
 }
 
 .hero-heading {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    height: auto;
+ 
 }
 
 .hero-btn1 {
@@ -123,7 +132,7 @@
 }
 
 .login-form {
-    width: 380px;!important;
+    width: 90%;!important;
     margin: 50px auto!important;
     -webkit-box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);
     -moz-box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);
@@ -137,8 +146,11 @@
 }
 
 .form-div {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 20px; */
+  
     
 }
 
@@ -146,16 +158,17 @@
 /* USER INFORMATIN SECTION */
 
 .user-info {
+    width:90%;
     text-align: center;
     padding-top: 150px;
     margin-top: 50px;
+    margin-left: 50px;
     height: 88%;
     -webkit-box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);
     -moz-box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);
     box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);   
     padding: 30px;
     border-radius: 15px;
-
 }
 
 /* TYPOGRAPHY SECTION */
@@ -164,4 +177,74 @@
     color: #5CE099;
     text-align: center;
     font-weight: 500;
+}
+
+
+
+
+@media (min-width: 1281px) {
+  
+    
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .form-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.form-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+  
 }
