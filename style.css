@@ -240,6 +240,10 @@
         grid-template-columns: 1fr;
         
     }
+
+    .login-form {
+        width: 80%;
+    }
   
 }
 
@@ -254,6 +258,11 @@
     display: grid;
     grid-template-columns: 1fr;
     
+}
+
+
+.login-form {
+    width: 80%;
 }
   
 }
