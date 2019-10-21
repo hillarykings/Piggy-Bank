@@ -1,4 +1,17 @@
+/* HEADER AND LOGO BRANDING */
+.fa-piggy-bank {
+    color: pink;
+    font-size: 2.5em;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+
 /* BUTTON SECTION */
+
 .form-btn {
     border-radius: 50px;
     border: none;
@@ -7,7 +20,11 @@
 .btn  {
     color: rgb(250, 250, 250)!important;
     background-color: #5CE099!important;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+.btn:active {
+    outline: none;
 }
 
 .btn:hover  {
@@ -16,6 +33,12 @@
 }
 
 /* NAVBAR SECTION */
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
 
 .navbar-brand img {
     width: 280px;
@@ -27,9 +50,9 @@
     background-color: #5CE099!important;
 }
 
-.navbar-nav-item {
-    display: flex;
-    justify-content: flex-start!important;
+.navbar-nav a {
+    font-weight: 500;
+    font-size: 1.3em;
 }
 
 .nav-link {
@@ -83,18 +106,23 @@
 
 .hero-btn1 {
     border-radius: 50px!important;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 30px;
     margin-left: 60px;
-    font-weight: 200;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hero-btn1:hover {
+  background:#FC9A16!important ;
 }
 
 .hero-btn2 {
     border-radius: 50px!important;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 20px;
     margin: 20px;
     background: #FC9A16!important;
-    font-weight: 200;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -113,7 +141,7 @@
 }
 
 .bottom-footer a {
-    padding: 10px;
+    padding: 30px 0 10px 0;
     text-decoration: none;
     color: #fff;
 }
@@ -127,12 +155,20 @@
 
 /* FORM SECTION */
 
-#form-input {
-    padding-left: 10px!important;
+input:focus, textarea:focus, select:focus {
+
+    outline: none;
+
 }
 
+#form-input {
+    padding-left: 10px!important;
+    background: #ddd;
+}
+
+
 .login-form {
-    width: 40%;
+    width: 30%;
     margin: 50px auto!important;
     -webkit-box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);
     -moz-box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);
@@ -149,9 +185,28 @@
     box-shadow: 0px 0px 43px -9px rgba(186,186,186,0.81);   
     padding: 30px;
     border-radius: 15px;
+    outline: none;
 }
+.col {
+    outline: none;
+}
+
 .form-control {
     border-radius: 50px!important;
+    background: #f7f7f7;
+    border: none;
+    outline: none;
+}
+
+
+.form-control::placeholder {
+    color: #b8b8b8;
+}
+
+
+.form-control:focus {
+    outline: none;
+    background: #f7f7f7;
 }
 
 .form-div {
@@ -164,9 +219,10 @@
 }
 
 
+
 /* USER INFORMATIN SECTION */
 
-.user-info {
+.admin-info {
     width:90%;
     text-align: center;
     padding-top: 150px;
@@ -213,7 +269,24 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  
+    .form-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .login-form {
+        width: 50%;
+    }
+
+    .admin-form {
+        width: 50%;
+    }
+
+    .admin-info {
+        width:50%;
+        margin: 40px auto auto auto;
+    }
   
 }
 
@@ -244,6 +317,16 @@
     .login-form {
         width: 80%;
     }
+    
+
+    .admin-form {
+        width: 70%;
+    }
+
+    .admin-info {
+        width:70%;
+        margin: 40px auto auto auto;
+    }
   
 }
 
@@ -263,6 +346,16 @@
 
 .login-form {
     width: 80%;
+}
+
+.admin-form {
+    width: 80%;
+    margin: auto;
+}
+
+.admin-info {
+    width:80%;
+    margin: 40px auto auto auto;
 }
   
 }
