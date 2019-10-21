@@ -248,7 +248,10 @@ input:focus, textarea:focus, select:focus {
 
 
 @media (min-width: 1281px) {
-  
+    #navbar {
+        display: flex;
+    
+    }
     
 }
 
@@ -259,7 +262,10 @@ input:focus, textarea:focus, select:focus {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-  
+    #navbar {
+        display: flex;
+    
+    }
 }
 
 /* 
@@ -297,7 +303,10 @@ input:focus, textarea:focus, select:focus {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  
+    #navbar {
+        display: flex;
+    
+    }
   
 }
 
@@ -326,6 +335,10 @@ input:focus, textarea:focus, select:focus {
     .admin-info {
         width:70%;
         margin: 40px auto auto auto;
+    }
+    #navbar {
+        display: flex;
+    
     }
   
 }
@@ -356,6 +369,10 @@ input:focus, textarea:focus, select:focus {
 .admin-info {
     width:80%;
     margin: 40px auto auto auto;
+}
+#navbar {
+    display: flex;
+
 }
   
 }
